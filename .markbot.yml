@@ -54,6 +54,7 @@ css:
       - ['html', '-ms-text-size-adjust', '100%']
       - ['html', '-webkit-text-size-adjust', '100%']
       - ['*', 'box-sizing', 'inherit']
+      - ['html', 'font-family', 'sans-serif']
       - ['body', 'margin', '0']
     search:
       - '@-moz-viewport'
