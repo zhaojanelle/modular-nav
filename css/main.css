@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,4 +25,32 @@ body {
 .flex {
   display: block;
   width: 100%;
+}
+
+.section-dark {
+  background-color: #e2e2e2;
+}
+
+.nav a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #0074d9;
+  padding: .5rem;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  float: left;
 }
