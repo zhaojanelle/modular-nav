@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.5 sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -34,12 +34,11 @@ body {
 .nav a {
   color: #0074d9;
   text-decoration: none;
-  padding: .5rem;
 }
 
 .nav a:hover {
   background-color: #0074d9;
-  color: white;
+  color: #fff;
 }
 
 header div {
@@ -54,9 +53,8 @@ header div {
 }
 
 .nav li {
-  display: inline;
+  display: inline-block;
 }
-
 
 @media only screen and (min-width: 38em) {
 
