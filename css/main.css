@@ -34,14 +34,15 @@ body {
 .nav a {
   color: #0074d9;
   text-decoration: none;
+  padding: .5rem;
 }
 
 .nav a:hover {
   background-color: #0074d9;
-  padding: .5rem;
+  color: white;
 }
 
-.masthead {
+header div {
   text-align: center;
 }
 
@@ -49,8 +50,18 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .nav li {
-  float: left;
+  display: inline;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  header div {
+    text-align: left;
+  }
+
 }
